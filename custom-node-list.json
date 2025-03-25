@@ -23213,6 +23213,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "leeneo",
+            "title": "Chinese Clip Node for ComfyUI",
+            "id": "chinese-leeneo",
+            "reference": "https://github.com/leeneo/ComfyUI-Chinese-CLIP",
+            "files": [
+                "https://github.com/leeneo/ComfyUI-Chinese-CLIP/blob/main/nodes.py"
+            ],
+            "install_type": "git-clone",
+            "description": "支持直接在CLIP文本框中输入汉字，底层会自动翻译为英文，同时标点也会替换成英文（Support for input Chinese prompt）。"
         }
     ]
 }
